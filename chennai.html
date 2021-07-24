@@ -1,48 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Mom's Hometown</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
     <main role="main">
-    <div id="body">
-        <div id="shortcuts"><!--The shortcuts to the different areas are here.-->
-            <h3><a class="links" href="chengalpattu.html">My&nbsp;Dad's&nbsp;Hometown</a> <a class="links" href="index.html">Main&nbsp;Page</a> <a class="links" href="chennai.html">My&nbsp;Mom's&nbsp;Hometown</a></h3>
-            <h4><a class="links" href="#aboutchennai">About&nbsp;Chennai</a> <a class="links" href="#historychennai">History&nbsp;of&nbsp;Chennai</a></h4>
-        </div>
-        <div id="hometown"><!--Information about my mom's hometown start here.-->
-            <h2>My Mom's Hometown</h2>
-            <div id="aboutchennai"><!--The basic information about Chennai starts here.-->
-                <h3>About Chennai</h3>
-                <img src="/img/chennaibeach.jpg" class="imgs" alt="This is an image of a beach in Chennai" title="This is an image of a beach in Chennai">
-                <p>Chennai is the capital of the Indian state of Tamil Nadu. Located on the Coromandel Coast of the Bay of Bengal, it is one of the largest cultural, economic and educational centers of south India. According to the 2011 Indian census, it is the sixth-most populous city and fourth-most populous urban agglomeration in India. The city together with the adjoining regions constitutes the Chennai Metropolitan Area, which is the 36th-largest urban area by population in the world. The traditional and de facto gateway of South India, Chennai is among the most-visited Indian cities by foreign tourists. It was ranked the 43rd-most visited city in the world for the year 2015 and was ranked the 36th-most visited city in the world for the year 2019. The Quality of Living Survey rated Chennai as the safest city in India. Chennai attracts 45 percent of health tourists visiting India, and 30 to 40 percent of domestic health tourists. As such, it is termed "India's health capital". Chennai has the fifth-largest urban economy of India.<br/><br/>
-                Chennai had the third-largest expatriate population in India, at 35,000 in 2009, 82,790 in 2011 and estimated at over 100,000 by 2016. Tourism-guide publisher Lonely Planet named Chennai as one of the top ten cities in the world to visit in 2015. Chennai is ranked as a beta-level city in the Global Cities Index, and was ranked the best city in India by India Today in the 2014 annual Indian city survey. In 2015 Chennai was named the "hottest" city (city worth visiting and worth living in for long term) by the BBC, citing the mixture of both modern and traditional values. National Geographic mentioned Chennai as the only South Asian city to feature in its 2015 "Top 10 food cities" list. Chennai was also named the ninth-best cosmopolitan city in the world by Lonely Planet. In October 2017, Chennai was added to the <abbr title="UNESCO Creative Cities Network">UCCN</abbr> list for its rich musical tradition.<br/><br/>
-                The Chennai Metropolitan Area is one of the largest municipal economies of India. More than one-third of India's automobile industry being based in the city. Home to the Tamil film industry, Chennai is also known as a major film production center. Chennai is one of the 100 Indian cities to be developed as a smart city under the Smart Cities Mission.</p>
+        <div class="container-fluid" id="body">
+            <div class="row bg-light fs-4 p-3 border-bottom border-primary" id="shortcuts">
+                <nav class="navbar navbar-expand-md navbar-primary bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" data-bs-toggle="collapse" href=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span style="color:rgb(36, 108, 218);">☰</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="chennai.html" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white;">
+                                        My Mom's Hometown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#aboutchennai">About Chennai</a></li>
+                                        <li><a class="dropdown-item" href="#historychennai">History of Chennai</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="chengalpattu.html">My Dad's Hometown</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <div id="historychennai" style="clear:both;"><!--The history of Chennai starts here.-->
-                <h3>History of Chennai</h3>
-                <img src="/img/Kapaleeswarar-temple-Hindu-Mylapore-Chennai-India-Tamil.jpg" class="imgs" alt="This is an image of a temple in Chennai" title="This is an image of a temple in Chennai">
-                <p>Stone age implements have been found near Pallavaram in Chennai. According to the <abbr title="Archaeological Survey of India">ASI</abbr>, Pallavaram was a megalithic cultural establishment, and pre-historic communities resided in the settlement.<br/><br/>
-                The region around Chennai has served as an important administrative, military, and economic centre for many centuries. During the 1st century CE, a poet and weaver named Thiruvalluvar lived in the town of Mylapore (a neighbourhood of present Chennai). From the 1st–12th century the region of present Tamil Nadu and parts of South India was ruled by the Cholas.<br/><br/>
-                The Pallavas of Kanchi built the areas of Mahabalipuram and Pallavaram during the reign of Mahendravarman I. They also defeated several kingdoms including the Cheras, Cholas and Pandyas who ruled over the area before their arrival. Sculpted caves and paintings have been identified from that period. Ancient coins dating to around 500 BCE have also been unearthed from the city and its surrounding areas. A portion of these findings belonged to the Vijayanagara Empire, which ruled the region during the medieval period.<br/><br/>
-                The Portuguese first arrived in 1522 and built a port called São Tomé after the Christian apostle, St. Thomas, who is believed to have preached in the area between 52 and 70 CE. In 1612, the Dutch established themselves near Pulicat, north of Chennai.<br/><br/>
-                On 20 August 1639 Francis Day of the East India Company along with the Nayak of Kalahasti Damarla Chennappa Nayakudu, travelled to the Chandragiri palace for an audience with the Vijayanager Emperor Peda Venkata Raya. Day was seeking to obtain a grant for land on the Coromandel coast on which the Company could build a factory and warehouse for their trading activities. He was successful in obtaining the lease of a strip of land about 10 kilometres (6 mi) long and 1.6 km (1 mi) inland in return for a yearly sum of five hundred lakh pagodas. On 22 August, he secured the land grant from local Nayak (Damarla Venkatadri Nayaka and his younger brother Aiyappa Nayaka of Poonamallee). The region was then formerly a fishing village known as "Madraspatnam". A year later, the Company built Fort St. George, the first major English settlement in India, which became the nucleus of the growing colonial city and urban Chennai, grew around this Fort. Post independence the fort housed the Tamil Nadu Assembly until the new Secretariat building was opened in 2010, but shortly afterwards it was again moved back to Fort St. George, due to a change in the Government.<br/><br/>
-                In 1746, Fort St. George and Madras were captured by the French under General La Bourdonnais, the Governor of Mauritius, who plundered the town and its outlying villages. The British regained control in 1749 through the Treaty of Aix-la-Chapelle and strengthened the town's fortress wall to withstand further attacks from the French and Hyder Ali, the Sultan of Mysore. They resisted a French siege attempt in 1759 under the leadership of Eyre Coote. In 1769 the city was threatened by Mysore and the British were defeated by Hyder Ali, after which the Treaty of Madras ended the war. By the 18th century, the British had conquered most of the region around Tamil Nadu and the northern modern–day states of Andhra Pradesh and Karnataka, establishing the Madras Presidency with Madras as the capital.<br/><br/>
-                Gradually, the city grew into a major naval base and became the central administrative centre for the British in South India. The city served as the baseline for the Great Trigonometrical Survey of India started on 10 April 1802. With the advent of railways in India in the 19th century, the thriving urban centre was connected to other important cities such as Bombay and Calcutta, promoting increased communication and trade with the hinterland. Sir Arthur Lawley was Governor of Madras from 1906 to 1911 and promoted modern agriculture, industry, railways, education, the arts and more democratic governance. The Governor lived in Government House, Fort St George, and had a country home at Guindy, with access to a golf course, hockey pitches, riding stables and the Guindy Horse Racing Track. In the First World War as Red Cross Commissioner in Mesopotamia, he looked after the welfare of Indian soldiers. Madras was the only Indian city to be attacked by the Central Powers during World War I, when an oil depot was shelled by the German light cruiser SMS Emden on 22 September 1914, as it raided shipping lanes in the Indian Ocean, causing disruption to shipping.<br/><br/>
-                After India gained its independence in 1947, the city became the capital of Madras State, which was renamed as Tamil Nadu in 1969. The violent agitations of 1965 against the compulsory imposition of Hindi and in support of English in India in the state marked a major shift in the political dynamics of the city and eventually it had a big impact on the whole state. Because of Madras and its people, English was not abolished as an official language, and remains an official language of India alongside Hindi. On 17 July 1996, the city known as Madras was officially renamed Chennai, in line with what was then a nationwide trend to using less Anglicised names. On 26 December 2004, an Indian Ocean tsunami lashed the shores of Chennai, killing 206 people in Chennai and permanently altering the coastline. The 2015 Chennai Floods submerged major portions of the city, killing 269 people and resulting in damages of ₹86.4 billion (US$1 billion).</p>
+            <div class="p-3" id="hometown">
+                <div class="row">
+                    <h2>My Mom's Hometown</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-12" id="aboutchennai">
+                        <h3>About Chennai</h3>
+                        <div>
+                            <img src="/img/chennaibeach.jpg" alt="This is an image of a beach in Chennai"
+                                title="This is an image of a beach in Chennai">
+                        </div>
+                        <div>
+                            <p>Chennai is the capital of the Indian state of Tamil Nadu. Located on the
+                                Coromandel Coast of the Bay of Bengal, it is one of the largest cultural, economic and
+                                educational centers of south
+                                India. According to the 2011 Indian census, it is the sixth-most populous city and
+                                fourth-most
+                                populous urban agglomeration in India. The city together with the adjoining regions
+                                constitutes
+                                the Chennai Metropolitan Area, which is the 36th-largest urban area by population in the
+                                world.
+                                The traditional and de facto gateway of South India, Chennai is among the most-visited
+                                Indian
+                                cities by foreign tourists. It was ranked the 43rd-most visited city in the world for
+                                the
+                                year
+                                2015 and was ranked the 36th-most visited city in the world for the year 2019. The
+                                Quality
+                                of
+                                Living Survey rated Chennai as the safest city in India. Chennai attracts 45 percent of
+                                health
+                                tourists visiting India, and 30 to 40 percent of domestic health tourists. As such, it
+                                is
+                                termed
+                                "India's health capital". Chennai has the fifth-largest urban economy of
+                                India.<br /><br />
+                                Chennai had the third-largest expatriate population in India, at 35,000 in 2009, 82,790
+                                in
+                                2011
+                                and estimated at over 100,000 by 2016. Tourism-guide publisher Lonely Planet named
+                                Chennai
+                                as
+                                one of the top ten cities in the world to visit in 2015. Chennai is ranked as a
+                                beta-level
+                                city
+                                in the Global Cities Index, and was ranked the best city in India by India Today in the
+                                2014
+                                annual Indian city survey. In 2015 Chennai was named the "hottest" city (city worth
+                                visiting
+                                and
+                                worth living in for long term) by the BBC, citing the mixture of both modern and
+                                traditional
+                                values. National Geographic mentioned Chennai as the only South Asian city to feature in
+                                its
+                                2015 "Top 10 food cities" list. Chennai was also named the ninth-best cosmopolitan city
+                                in
+                                the
+                                world by Lonely Planet. In October 2017, Chennai was added to the <abbr
+                                    title="UNESCO Creative Cities Network">UCCN</abbr> list for its rich musical
+                                tradition.<br /><br />
+                                The Chennai Metropolitan Area is one of the largest municipal economies of India. More
+                                than
+                                one-third of India's automobile industry being based in the city. Home to the Tamil film
+                                industry, Chennai is also known as a major film production center. Chennai is one of the
+                                100
+                                Indian cities to be developed as a smart city under the Smart Cities Mission.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12" id="historychennai" style="clear:both;">
+                        <h3>History of Chennai</h3>
+                        <div>
+                            <img src="/img/Kapaleeswarar-temple-Hindu-Mylapore-Chennai-India-Tamil.jpg"
+                                alt="This is an image of a temple in Chennai"
+                                title="This is an image of a temple in Chennai">
+                        </div>
+                        <div>
+                            <p class="float-start">Stone age implements have been found near Pallavaram in Chennai.
+                                According to
+                                the <abbr title="Archaeological Survey of India">ASI</abbr>, Pallavaram was a megalithic
+                                cultural
+                                establishment, and pre-historic communities resided in the settlement.<br /><br />
+                                The region around Chennai has served as an important administrative, military, and
+                                economic
+                                centre for many centuries. During the 1st century CE, a poet and weaver named
+                                Thiruvalluvar
+                                lived in the town of Mylapore (a neighbourhood of present Chennai). From the 1st–12th
+                                century
+                                the region of present Tamil Nadu and parts of South India was ruled by the
+                                Cholas.<br /><br />
+                                The Pallavas of Kanchi built the areas of Mahabalipuram and Pallavaram during the reign
+                                of
+                                Mahendravarman I. They also defeated several kingdoms including the Cheras, Cholas and
+                                Pandyas
+                                who ruled over the area before their arrival. Sculpted caves and paintings have been
+                                identified
+                                from that period. Ancient coins dating to around 500 BCE have also been unearthed from
+                                the
+                                city
+                                and its surrounding areas. A portion of these findings belonged to the Vijayanagara
+                                Empire,
+                                which ruled the region during the medieval period.<br /><br />
+                                The Portuguese first arrived in 1522 and built a port called São Tomé after the
+                                Christian
+                                apostle, St. Thomas, who is believed to have preached in the area between 52 and 70 CE.
+                                In
+                                1612,
+                                the Dutch established themselves near Pulicat, north of Chennai.<br /><br />
+                                On 20 August 1639 Francis Day of the East India Company along with the Nayak of
+                                Kalahasti
+                                Damarla Chennappa Nayakudu, travelled to the Chandragiri palace for an audience with the
+                                Vijayanager Emperor Peda Venkata Raya. Day was seeking to obtain a grant for land on the
+                                Coromandel coast on which the Company could build a factory and warehouse for their
+                                trading
+                                activities. He was successful in obtaining the lease of a strip of land about 10
+                                kilometres
+                                (6
+                                mi) long and 1.6 km (1 mi) inland in return for a yearly sum of five hundred lakh
+                                pagodas.
+                                On 22
+                                August, he secured the land grant from local Nayak (Damarla Venkatadri Nayaka and his
+                                younger
+                                brother Aiyappa Nayaka of Poonamallee). The region was then formerly a fishing village
+                                known
+                                as
+                                "Madraspatnam". A year later, the Company built Fort St. George, the first major English
+                                settlement in India, which became the nucleus of the growing colonial city and urban
+                                Chennai,
+                                grew around this Fort. Post independence the fort housed the Tamil Nadu Assembly until
+                                the
+                                new
+                                Secretariat building was opened in 2010, but shortly afterwards it was again moved back
+                                to
+                                Fort
+                                St. George, due to a change in the Government.<br /><br />
+                                In 1746, Fort St. George and Madras were captured by the French under General La
+                                Bourdonnais,
+                                the Governor of Mauritius, who plundered the town and its outlying villages. The British
+                                regained control in 1749 through the Treaty of Aix-la-Chapelle and strengthened the
+                                town's
+                                fortress wall to withstand further attacks from the French and Hyder Ali, the Sultan of
+                                Mysore.
+                                They resisted a French siege attempt in 1759 under the leadership of Eyre Coote. In 1769
+                                the
+                                city was threatened by Mysore and the British were defeated by Hyder Ali, after which
+                                the
+                                Treaty
+                                of Madras ended the war. By the 18th century, the British had conquered most of the
+                                region
+                                around Tamil Nadu and the northern modern–day states of Andhra Pradesh and Karnataka,
+                                establishing the Madras Presidency with Madras as the capital.<br /><br />
+                                Gradually, the city grew into a major naval base and became the central administrative
+                                centre
+                                for the British in South India. The city served as the baseline for the Great
+                                Trigonometrical
+                                Survey of India started on 10 April 1802. With the advent of railways in India in the
+                                19th
+                                century, the thriving urban centre was connected to other important cities such as
+                                Bombay
+                                and
+                                Calcutta, promoting increased communication and trade with the hinterland. Sir Arthur
+                                Lawley
+                                was
+                                Governor of Madras from 1906 to 1911 and promoted modern agriculture, industry,
+                                railways,
+                                education, the arts and more democratic governance. The Governor lived in Government
+                                House,
+                                Fort
+                                St George, and had a country home at Guindy, with access to a golf course, hockey
+                                pitches,
+                                riding stables and the Guindy Horse Racing Track. In the First World War as Red Cross
+                                Commissioner in Mesopotamia, he looked after the welfare of Indian soldiers. Madras was
+                                the
+                                only
+                                Indian city to be attacked by the Central Powers during World War I, when an oil depot
+                                was
+                                shelled by the German light cruiser SMS Emden on 22 September 1914, as it raided
+                                shipping
+                                lanes
+                                in the Indian Ocean, causing disruption to shipping.<br /><br />
+                                After India gained its independence in 1947, the city became the capital of Madras
+                                State,
+                                which
+                                was renamed as Tamil Nadu in 1969. The violent agitations of 1965 against the compulsory
+                                imposition of Hindi and in support of English in India in the state marked a major shift
+                                in
+                                the
+                                political dynamics of the city and eventually it had a big impact on the whole state.
+                                Because of
+                                Madras and its people, English was not abolished as an official language, and remains an
+                                official language of India alongside Hindi. On 17 July 1996, the city known as Madras
+                                was
+                                officially renamed Chennai, in line with what was then a nationwide trend to using less
+                                Anglicised names. On 26 December 2004, an Indian Ocean tsunami lashed the shores of
+                                Chennai,
+                                killing 206 people in Chennai and permanently altering the coastline. The 2015 Chennai
+                                Floods
+                                submerged major portions of the city, killing 269 people and resulting in damages of
+                                ₹86.4
+                                billion (US$1 billion).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-3" id="external-link" style="clear:both;">
+                <p>Learn more on <a href="https://en.wikipedia.org/wiki/Chennai" target="_blank"
+                        rel="noopener noreferrer">Wikipedia</a>.</p>
+            </div>
+            <div class="row p-3" id="footer">
+                <p>2021 &copy;Kavin Kumanan</p>
             </div>
         </div>
-        <div id="external-link" style="clear:both;">
-            <p>Learn more on <a style="color:white; text-decoration:underline;" href="https://en.wikipedia.org/wiki/Chennai" target="_blank" rel="noopener noreferrer">Wikipedia</a>.</p>
-        </div>
-        <div id="footer"><!--The footer of the page is here.-->
-            <h4 style="text-align:left; color:rgb(58, 188, 231);">2021 &copy; <a href="mailto: kavinkumanan@gmail.com">Kavin Kumanan</a></h4>
-        </div>
-    </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

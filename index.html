@@ -10,56 +10,27 @@
     <title>My Parents' Hometown</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-        .container-fluid {
-            padding-right: 0rem;
-            padding-left: 0rem;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <main role="main">
         <div class="container-fluid" id="body">
             <!--The content of the page starts here.-->
-            <div class="row bg-light fs-4" id="shortcuts">
-                <!--The shortcuts to the different areas are here.-->
-                <!--<nav class="navbar navbar-expand-lg navbar-primary">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="chennai.html">My Mom's Hometown</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="chengalpattu.html">My Dad's Hometown</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>-->
-                <!--This is my Navbar that I wanted to be blue.-->
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="row bg-light fs-4 p-3 border-bottom border-primary" id="shortcuts">
+                <nav class="navbar navbar-expand-md navbar-primary bg-light">
                     <div class="container-fluid">
                         <a class="navbar-brand" data-bs-toggle="collapse" href=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span style="color:rgb(36, 108, 218);">☰</span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                                 <div class="">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                        <a class="nav-link active" aria-current="page" href="index.html" style="background-color: white;">Home</a>
                                     </li>
                                 </div>
                                 <div class="">
@@ -78,37 +49,39 @@
                     </div>
                 </nav>
             </div>
-            <div class="row p-4 " id="mintro">
+            <div class="row p-3" id="mintro">
                 <!--The introduction statements are here.-->
                 <h1>My Parents' Hometown</h1>
-                <div class="card col-lg-6 col-12">
-                    <img src="/img/chennai-school.jpg" class="card-img-top" alt="A picture of a school in Chennai"
-                        title="A picture of a school in Chennai">
-                    <div class="card-body">
-                        <h5 class="card-title">My Mom's Hometown</h5>
-                        <p class="card-text">My Mom's Hometown is Chennai. Chennai is a city in Tamilnadu, India.
-                            Chennai was the first city in India to have a vast network of wifi. It is also the
-                            automobile capital of India, and is sometimes referred to as the Detroit of South Asia.
-                        </p>
-                        <a href="chennai.html" class="btn btn-primary">Learn more</a>
+                <div class="">
+                    <div class="float-start card border border-3 border-primary col-lg-6 col-12 mt-1">
+                        <img src="/img/chennai-school.jpg" class="card-img-top" alt="A picture of a school in Chennai"
+                            title="A picture of a school in Chennai">
+                        <div class="card-body">
+                            <h5 class="card-title">My Mom's Hometown</h5>
+                            <p class="card-text">My Mom's Hometown is Chennai. Chennai is a city in Tamilnadu, India.
+                                Chennai was the first city in India to have a vast network of wifi. It is also the
+                                automobile capital of India, and is sometimes referred to as the Detroit of South Asia.
+                            </p>
+                            <a href="chennai.html" class="btn btn-primary" type="submit">Learn more</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card col-lg-6 col-12">
-                    <img src="/img/Chengalpattu_lake.jpg" class="card-img-top"
-                        alt="This is a picture of a lake in Chengalpattu."
-                        title="This is a picture of a lake in Chengalpattu.">
-                    <div class="card-body">
-                        <h5 class="card-title">My Dad's Hometown</h5>
-                        <p class="card-text">My Dad's Hometown is Chennai. Chengalpattu Railway Station, technically
-                            known as CGL, is one of the major railway junctions of the Southern Railway and is a
-                            nationally important halt.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="float-start card border border-3 border-primary col-lg-6 col-12 mt-1">
+                        <img src="/img/Chengalpattu_lake.jpg" class="card-img-top"
+                            alt="This is a picture of a lake in Chengalpattu."
+                            title="This is a picture of a lake in Chengalpattu.">
+                        <div class="card-body">
+                            <h5 class="card-title">My Dad's Hometown</h5>
+                            <p class="card-text">My Dad's Hometown is Chennai. Chengalpattu Railway Station, technically
+                                known as CGL, is one of the major railway junctions of the Southern Railway and is a
+                                nationally important halt.</p>
+                            <a href="chengalpattu.html" class="btn btn-primary" type="submit">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="p-4 align-bottom" id="footer">
+            <div class="p-3 align-bottom" id="footer">
                 <!--The footer of the page is here.-->
-                <h4>2021 &copy; Kavin Kumanan</h4>
+                <p>2021 &copy; Kavin Kumanan</p>
             </div>
         </div>
     </main>

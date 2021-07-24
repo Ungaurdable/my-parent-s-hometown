@@ -1,40 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Dad's Hometown - Chengalpattu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
     <main role="main">
-    <div id="body">
-        <div id="shortcuts"><!--The shortcuts to the different areas are here.-->
-            <h3><a class="links" href="chengalpattu.html">My&nbsp;Dad's&nbsp;Hometown</a> <a class="links" href="index.html">Main&nbsp;Page</a> <a class="links" href="chennai.html">My&nbsp;Mom's&nbsp;Hometown</a></h3>
-            <h4><a class="links" href="#aboutchengalpattu">About&nbsp;Chengalpattu</a> <a class="links" href="#historychengalpattu">History of Chengalpattu</a></h4>
-        </div>
-        <div id="hometown"><!--Information about my dad's hometown starts here.-->
-            <h2>My Dad's Hometown</h2>
-            <div id="aboutchengalpattu"><!--The basic information about Chengalpattu starts here.-->
-                <h3>About Chengalpattu</h3>
-                <img src="/img/Chengallake.jpg" class="imgs" alt="This is an image of a lake in Chengalpattu" title="This is an image of a lake in Chengalpattu">
-                <p>My dad's hometown was Chengalpattu. Chengalpattu, previously known as Chinglepet, is a town and the headquarters of Chengalpattu of the state Tamil Nadu, India. The town is located near to the industrial and IT hub. It is the headquarters of the district and is 56 kilometers (35 mi) away from the state capital, Chennai on the National Highway 45. <abbr title="Chengalpattu Railway Station">CGL</abbr> is one of the major railway junctions of the Southern Railway and is a nationally important halt.<br/><br/>
-                Chengalpattu Government Hospital is a landmark and the largest government hospital in this district. The Hospital has its own medical college. The town has the principal court of the district, and Dr. Ambedhkar Law College.The city is believed to have been named after a lily called 'chenkazhuneer poo' which is found aplenty in the region. It is on the Palar River about 56 km southwest of Chennai City (Madras) and thus Chengapattu is called the "Gateway of Chennai". It is an important commercial center. It has a medical college and other colleges affiliated with the University of Madras. In 2011, the town had a population of 62,579. As of now the current population is approximately 85,000.</p>
+        <div class="container-fluid" id="body">
+            <div class="row bg-light fs-4 p-3 border-bottom border-primary" id="shortcuts">
+                <nav class="navbar navbar-expand-md navbar-primary bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" data-bs-toggle="collapse" href=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span style="color:rgb(36, 108, 218);">☰</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="chennai.html">My Mom's
+                                            Hometown</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="chengalpattu.html" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white;">
+                                            My Dad's Hometown
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#aboutchengalpattu">About Chengalpattu</a></li>
+                                            <li><a class="dropdown-item" href="#historychengalpattu">History of Chengalpattu</a></li>
+                                        </ul>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <div id="historychengalpattu" style="clear:both;"><!--The basic information about Chengalpattu starts here.-->
-                <h3>History of Chengalpattu</h3><!--The basic information about Chengalpattu starts here.-->
-                <img src="/img/ChengalTemple.jpg" class="imgs" alt="This is an image of a temple in Chengalpattu" title="This is an image of a temple in Chengalpattu">
-                <p>Chengalpattu dates from the early Chola dynasty of the 2nd century BCE. Chengalpattu was formerly a capital of the kings of Vijayanagara, after their defeat by the Deccan sultanates at Battle of Talikota in 1565. The fortress at Chengalpattu, built by the Vijayanagara kings in the 16th century, was of strategic importance, owing to its swampy surroundings and the lake that flanked its side. In 1639 a local governor or nayak, subject to these kings, granted a piece of coastal land to the British East India Company where Fort St George now stands, which became the nucleus of the city of Madras. Chengalpattu was taken by the French in 1751 and was retaken in 1752 by Robert Clive, after which it proved of great strategic advantage to the British, especially when Lally failed to capture the fortress in his advance on Madras. During the wars of the British with Hyder Ali of Mysore, it withstood his assault and afforded a refuge to the nearby residents. In 1780, after the defeat of Colonel W Baillie, the army of Sir Hector Munro took refuge there. By 1900 the town was noted for its manufacture of pottery and was a local market center, especially of the rice trade. The surrounding district was home to cotton and silk weaving, indigo dyeing, tanneries, and a cigar factory, and extensive salt manufacturing took place along the coast.</p>
+            <div class="p-3" id="hometown">
+                <div class="row">
+                    <h2>My Dad's Hometown</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-12" id="aboutchengalpattu">
+                        <h3>About Chengalpattu</h3>
+                        <div>
+                            <img src="/img/Chengallake.jpg" alt="This is an image of a lake in Chengalpattu"
+                                title="This is an image of a lake in Chengalpattu">
+                        </div>
+                        <div>
+                            <p>My dad's hometown was Chengalpattu. Chengalpattu, previously known as Chinglepet, is a
+                                town
+                                and
+                                the headquarters of Chengalpattu of the state Tamil Nadu, India. The town is located
+                                near to
+                                the
+                                industrial and IT hub. It is the headquarters of the district and is 56 kilometers (35
+                                mi)
+                                away
+                                from the state capital, Chennai on the National Highway 45. <abbr
+                                    title="Chengalpattu Railway Station">CGL</abbr> is one of the major railway
+                                junctions of
+                                the
+                                Southern Railway and is a nationally important halt.<br /><br />
+                                Chengalpattu Government Hospital is a landmark and the largest government hospital in
+                                this
+                                district. The Hospital has its own medical college. The town has the principal court of
+                                the
+                                district, and Dr. Ambedhkar Law College.The city is believed to have been named after a
+                                lily
+                                called 'chenkazhuneer poo' which is found aplenty in the region. It is on the Palar
+                                River
+                                about
+                                56 km southwest of Chennai City (Madras) and thus Chengapattu is called the "Gateway of
+                                Chennai". It is an important commercial center. It has a medical college and other
+                                colleges
+                                affiliated with the University of Madras. In 2011, the town had a population of 62,579.
+                                As
+                                of
+                                now the current population is approximately 85,000.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12" id="historychengalpattu" style="clear:both;">
+                        <h3>History of Chengalpattu</h3>
+                        <div>
+                            <img src="/img/ChengalTemple.jpg" alt="This is an image of a temple in Chengalpattu"
+                                title="This is an image of a temple in Chengalpattu">
+                        </div>
+                        <div>
+                            <p>Chengalpattu dates from the early Chola dynasty of the 2nd century BCE. Chengalpattu was
+                                formerly
+                                a capital of the kings of Vijayanagara, after their defeat by the Deccan sultanates at
+                                Battle of
+                                Talikota in 1565. The fortress at Chengalpattu, built by the Vijayanagara kings in the
+                                16th
+                                century, was of strategic importance, owing to its swampy surroundings and the lake that
+                                flanked
+                                its side. In 1639 a local governor or nayak, subject to these kings, granted a piece of
+                                coastal
+                                land to the British East India Company where Fort St George now stands, which became the
+                                nucleus
+                                of the city of Madras. Chengalpattu was taken by the French in 1751 and was retaken in
+                                1752
+                                by
+                                Robert Clive, after which it proved of great strategic advantage to the British,
+                                especially
+                                when
+                                Lally failed to capture the fortress in his advance on Madras. During the wars of the
+                                British
+                                with Hyder Ali of Mysore, it withstood his assault and afforded a refuge to the nearby
+                                residents. In 1780, after the defeat of Colonel W Baillie, the army of Sir Hector Munro
+                                took
+                                refuge there. By 1900 the town was noted for its manufacture of pottery and was a local
+                                market
+                                center, especially of the rice trade. The surrounding district was home to cotton and
+                                silk
+                                weaving, indigo dyeing, tanneries, and a cigar factory, and extensive salt manufacturing
+                                took
+                                place along the coast.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-3" id="external-link" style="clear:both;">
+                <p>Learn more on <a href="https://en.wikipedia.org/wiki/Chengalpattu" target="_blank"
+                        rel="noopener noreferrer" id="wiki">Wikipedia</a>.</p>
+            </div>
+            <div class="row p-3" id="footer">
+                <p>2021 &copy; Kavin Kumanan
+                <p>
             </div>
         </div>
-        <div id="external-link" style="clear:both;">
-            <p>Learn more on <a style="color:white; text-decoration:underline;" href="https://en.wikipedia.org/wiki/Chengalpattu" target="_blank" rel="noopener noreferrer" id="wiki">Wikipedia</a>.</p>
-        </div>
-        <div id="footer"><!--The footer of the page is here.-->
-            <h4 style="text-align:left; color:rgb(58, 188, 231);">2021 &copy; <a href="mailto: kavinkumanan@gmail.com">Kavin Kumanan</a></h4>
-        </div>
-    </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
