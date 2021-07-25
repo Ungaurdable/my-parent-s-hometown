@@ -14,59 +14,113 @@
 <body>
     <main role="main">
         <div class="container-fluid" id="body">
-            <div class="row bg-light fs-4 p-3 border-bottom border-primary" id="shortcuts">
-                <nav class="navbar navbar-expand-lg navbar-primary bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" data-bs-toggle="collapse" href=""></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span style="color:rgb(36, 108, 218);">☰</span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link active dropdown-toggle" aria-current="page" href="chennai.html"
-                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        My Mom's Hometown
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="chennai.html">My Mom's Hometown</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#aboutchennai">About Chennai</a></li>
-                                        <li><a class="dropdown-item" href="#historychennai">History of Chennai</a></li>
-                                        <li><a class="dropdown-item" href="#geographychennai">Geography of Chennai</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="chengalpattu.html" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        My Dad's Hometown
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="chengalpattu.html">My Dad's Hometown</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#aboutchengalpattu">About Chengalpattu</a>
-                                        </li>
-                                        <li><a class="dropdown-item" href="#historychengalpattu">History of
-                                                Chengalpattu</a></li>
-                                        <li><a class="dropdown-item" href="#demographicschengalpattu">Demographics of
-                                                Chengalpattu</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+            <div class="bg-light fs-4 p-3 border-bottom border-primary" id="shortcuts">
+                <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <span class="fs-4" style="color:rgb(36, 108, 218);">☰</span>
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title fs-3" id="offcanvasExampleLabel" style="color: rgb(36, 108, 218);">My
+                            Parents Hometown</h5>
+                        <button type="button" class="btn-close text-reset bg-white border border-0 fs-4"
+                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            <div class="accordion accordion-flush" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Home
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks" href="index.html"><strong>Main
+                                                            Page</strong></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseTwo">
+                                            My Mom's Hometown
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks" href="chennai.html"><strong>Main
+                                                            Page</strong></a>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks" href="chennai.html#aboutchennai">About
+                                                        Chennai</a>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks" href="chennai.html#historychennai">History
+                                                        of Chennai</a>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks"
+                                                        href="chennai.html#geographychennai">Geography of Chennai</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="true"
+                                            aria-controls="collapseThree">
+                                            My Dad's Hometown
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks" href="chengalpattu.html"><strong>Main
+                                                            Page</strong></a>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks"
+                                                        href="chengalpattu.html#aboutchengalpattu">About
+                                                        Chengalpattu</a>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks"
+                                                        href="chengalpattu.html#historychengalpattu">History
+                                                        of Chengalpattu</a>
+                                                </li>
+                                                <li class="list-group-item list-group-item-action">
+                                                    <a class="accordianlinks"
+                                                        href="chengalpattu.html#demographicschengalpattu">Demographics
+                                                        of Chengalpattu</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
             <div class="p-3" id="hometown">
                 <div class="row">
