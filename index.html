@@ -17,8 +17,8 @@
     <main role="main">
         <div class="container-fluid" id="body">
             <!--The content of the page starts here.-->
-            <div class="bg-light fs-4 p-3 border-bottom border-primary" id="shortcuts">
-                <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+            <div class="row fs-4 fixed-top" id="shortcuts">
+                <!--<a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
                     aria-controls="offcanvasExample">
                     <span class="fs-4" style="color:rgb(36, 108, 218);">☰</span>
                 </a>
@@ -123,11 +123,66 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="container-fluid px-3">
+                        <a class="navbar-brand border border-white rounded-pill p-2" href="index.html">My Parents'
+                            Hometown</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        My Dad's Hometown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="chengalpattu.html">Main page</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="chengalpattu.html#aboutchengalpattu">About
+                                                Chengalpattu</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="chengalpattu.html#historychengalpattu">History of Chengalpattu</a>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="chengalpattu.html#demographicschengalpattu">Chengalpattu</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        My Mom's Hometown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="chennai.html">Main page</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="chennai.html#aboutchennai">About Chennai</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="chennai.html#historychennai">History of
+                                                Chennai</a></li>
+                                        <li><a class="dropdown-item" href="chennai.html#geographychennai">Geography of
+                                                Chennai</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <div class="row p-3" id="mintro">
+            <div class="row p-3 mt-5" id="mintro">
                 <!--The introduction statements are here.-->
-                <h1>My Parents' Hometowns</h1>
+                <h1 class="pt-2">My Parents' Hometowns</h1>
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -135,23 +190,23 @@
                                 <h5>My Parents' Hometowns</h5>
                                 <p>In this website, I'll introduce you to my parents' hometowns.</p>
                             </div>
-                            <img src="/img/carousel1.jpg" class="d-block car"
-                                alt="An image of roads in Chennai" title="An image of roads in Chennai">
+                            <img src="/img/carousel1.jpg" class="d-block w-100" alt="An image of roads in Chennai"
+                                title="An image of roads in Chennai">
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-caption d-none d-md-block bg-white">
                                 <h5>My Mom's Hometown</h5>
                                 <p>My mom's hometown is Chennai, Tamilnadu.</p>
                             </div>
-                            <img src="/img/carousel2.jpg" class="d-block car"
-                                alt="An image of a beach in Chennai" title="An image of a beach in Chennai">
+                            <img src="/img/carousel2.jpg" class="d-block w-100" alt="An image of a beach in Chennai"
+                                title="An image of a beach in Chennai">
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-caption d-none d-md-block bg-white">
                                 <h5>My Dad's Hometown</h5>
                                 <p>My dad's hometown is Chengalpattu, Tamilnadu.</p>
                             </div>
-                            <img src="/img/carousel3.jpg" class="d-block car"
+                            <img src="/img/carousel3.jpg" class="d-block w-100"
                                 alt="An image of the buildings in Chengalpattu."
                                 title="An image of the buildings in Chengalpattu.">
                         </div>
@@ -167,7 +222,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                <div class="float-start card border border-3 border-primary col-lg-6 col-12 mt-1">
+                <div class="float-start card border border-3 border-primary col-lg-6 col-12 mt-1 my-1">
                     <img src="/img/chennai-school.jpg" class="card-img-top" alt="A picture of a school in Chennai"
                         title="A picture of a school in Chennai">
                     <div class="card-body">
@@ -179,7 +234,7 @@
                         <a href="chennai.html" class="btn btn-primary" type="submit">Learn more</a>
                     </div>
                 </div>
-                <div class="float-start card border border-3 border-primary col-lg-6 col-12 mt-1">
+                <div class="float-start card border border-3 border-primary col-lg-6 col-12 mt-1 my-1">
                     <img src="/img/Chengalpattu_lake.jpg" class="card-img-top"
                         alt="This is a picture of a lake in Chengalpattu."
                         title="This is a picture of a lake in Chengalpattu.">
@@ -188,13 +243,13 @@
                         <p class="card-text">My Dad's Hometown is Chennai. Chengalpattu Railway Station, technically
                             known as CGL, is one of the major railway junctions of the Southern Railway and is a
                             nationally important halt.</p>
-                        <a href="chengalpattu.html" class="btn btn-primary rounded-pill" type="submit">Learn more</a>
+                        <a href="chengalpattu.html" class="btn btn-primary" type="submit">Learn more</a>
                     </div>
                 </div>
             </div>
-            <div class="row bg-light border-top border-primary p-3">
-                <div class="col-12" id="main-footer">
-                    <p class="footer">2021 &copy;Kavin Kumanan</p>
+            <div class="row bg-primary p-3">
+                <div class="col-12 px-4 py-2" id="main-footer">
+                    <p class="footer">2021 &copy; Kavin Kumanan</p>
                 </div>
             </div>
         </div>
