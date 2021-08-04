@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(36, 108, 218);
 }
 
@@ -23,8 +24,13 @@ p.footer > a {
     text-decoration: none;
 }
 
+h3, h4, h6, .standoutft {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h1, h2, h5 {
     color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
